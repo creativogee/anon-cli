@@ -1,0 +1,40 @@
+{
+  "name": "anon-cli",
+  "version": "1.0.1",
+  "description": "Improve your productivity with out-of-the-box aliases for your day to day commands",
+  "keywords": [
+    "aliases",
+    "terminal",
+    "console",
+    "cli",
+    "shell",
+    "command-line"
+  ],
+  "author": {
+    "name": "Omowole Gbenga",
+    "email": "omowole.gbenga@gmail.com"
+  },
+  "repository": "creativogee/anon-cli",
+  "license": "MIT",
+  "main": "index.js",
+  "bin": {
+    "anon": "index.js"
+  },
+  "files": [
+    "index.js",
+    "scripts/",
+    "utils/",
+    "LICENSE",
+    "README.md"
+  ],
+  "imports": {
+    "#styles": "./utils/ansi-styles.js",
+    "#execute": "./utils/exec-wrapper.js",
+    "#logger": "./utils/logger.js"
+  },
+  "scripts": {},
+  "type": "module",
+  "dependencies": {
+    "global-modules": "^2.0.0"
+  }
+}
